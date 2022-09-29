@@ -132,6 +132,7 @@ dist
 
 # Local .terraform directories
 **/.terraform/*
+modules/.terraform.lock.hcl
 
 # .tfstate files
 *.tfstate
