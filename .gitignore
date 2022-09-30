@@ -34,4 +34,3 @@ terraform.rc
 #lock file
 **/.terraform/*
 .terraform.lock.hcl
-
