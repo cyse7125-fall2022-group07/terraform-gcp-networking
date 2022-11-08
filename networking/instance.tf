@@ -10,5 +10,6 @@ resource "google_compute_instance" "gcp_instance" {
     }
     network_interface {
         subnetwork = "${google_compute_subnetwork.public_subnet_1.name}"
+        access_config {}
     }
 }

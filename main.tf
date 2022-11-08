@@ -4,4 +4,5 @@ provider "google" {
 
 module "networking" {
     source = "./networking"
+    project_id = var.project_id
 }
